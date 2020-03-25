@@ -6,12 +6,12 @@ int main()
 {
 	int x, vet[] = {13, 23, 3, 8, 1};
 	system("cls");
-	cout<<"\nAntes da chamada da função - seleção\n\t\t";
+	cout<<"\nAntes da chamada da funcao - selecao\n\t\t";
 	for(x = 0; x < 5; x++)
 		cout<<vet[x]<<"\t";
 		cout<<"\n";
 	selecao(vet, 5);
-	cout<<"\nDepois da chamada da função - seleção\n\t\t";
+	cout<<"\nDepois da chamada da funcao - selecao\n\t\t";
 	for(x = 0; x < 5; x++)
 		cout<<vet[x]<<"\t";
 		cout<<"\n\n";
